@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGame", "TheGame.csproj", "{FFF5F83D-BE8F-4E29-8741-96D04FB2E8D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_InformePOO", "..\API_InformePOO\API_InformePOO.csproj", "{FB849510-656C-4DFC-B994-B9BD2E7709E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFF5F83D-BE8F-4E29-8741-96D04FB2E8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF5F83D-BE8F-4E29-8741-96D04FB2E8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF5F83D-BE8F-4E29-8741-96D04FB2E8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF5F83D-BE8F-4E29-8741-96D04FB2E8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB849510-656C-4DFC-B994-B9BD2E7709E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB849510-656C-4DFC-B994-B9BD2E7709E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB849510-656C-4DFC-B994-B9BD2E7709E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB849510-656C-4DFC-B994-B9BD2E7709E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC126DD0-68D2-4AFD-B9C0-B91142ABB755}
+	EndGlobalSection
+EndGlobal
