@@ -133,6 +133,7 @@ namespace TheGame
             else if (Check(myPlayer.Hand) == "quemado")
             {
                 txtResultado.Text = "Te pasaste";
+                imgMaster.Visibility = Visibility.Visible;
                 btnEmpezar.IsEnabled = false;
                 btnPlantar.IsEnabled = false;
                 contadorP = contadorP + 1;
@@ -169,6 +170,7 @@ namespace TheGame
                 txtResultado.Text = "Gana la casa";
                 contadorP = contadorP + 1;
                 contadorJ = contadorJ + 1;
+                imgMaster.Visibility = Visibility.Visible;
             }
             else
             {
@@ -191,7 +193,7 @@ namespace TheGame
             txtResultado.Text = "";
             btnPlantar.IsEnabled = true;
             btnEmpezar.IsEnabled = true;
-
+            imgMaster.Visibility = Visibility.Hidden;
             Inicio();
         }
 

@@ -7,6 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="master.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="master.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\API_InformePOO\API_InformePOO.csproj" />
   </ItemGroup>
 
