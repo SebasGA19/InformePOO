@@ -5,7 +5,7 @@ using System.Text;
 
 namespace API_InformePOO
 {
-    class Dealer
+    public class Dealer
     {
         private List<Card> hand = new List<Card>();
         
@@ -13,7 +13,7 @@ namespace API_InformePOO
         Card MyCard;
         private List<Card> deck = new List<Card>();
 
-        string[] suit2 = new string[] { "corazon", "rombo", "pica", "trebol" };
+        char[] suit2 = new char[] { '♥', '♦', '♠', '♣' };
         string[] symbol2 = new string[] { "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K" };
 
         public List<Card> Hand { get => hand; set => hand = value; }
@@ -31,22 +31,22 @@ namespace API_InformePOO
             return deck;
         }
 
-        public void Randomize(List<Card> list)
+        public void Randomize()
         {
-            int n = list.Count;
+            int n = deck.Count;
             while (n > 1)
             {
                 n--;
                 int k = random.Next(n + 1);
-                Card value = list[k];
-                list[k] = list[n];
-                list[n] = value;
+                Card value = deck[k];
+                deck[k] = deck[n];
+                deck[n] = value;
             }
         }
-        public Card Deal(List<Card> list)
+        public Card Deal()
         {
-            Card lastItem = list.LastOrDefault();
-            list.Remove(lastItem);
+            Card lastItem = deck.LastOrDefault();
+            deck.Remove(lastItem);
             return lastItem;
         }
 
@@ -57,11 +57,9 @@ namespace API_InformePOO
 
         public void Init()
         {
-            Card carta1;
-            Card carta2;
+            Card carta1 = Deal();
+            Card carta2 = Deal();
 
-            carta1 = Deal(deck);
-            carta2 = Deal(deck);
 
             AddCard(carta1);
             AddCard(carta2);

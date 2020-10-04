@@ -4,12 +4,15 @@ using System.Text;
 
 namespace API_InformePOO
 {
-    class Player
+    public class Player
     {
         private List<Card> hand = new List<Card>();
+
+        public List<Card> Hand { get => hand; set => hand = value; }
+
         public void AddCard(Card carta)
         {
-            hand.Add(carta);
+            Hand.Add(carta);
         }
 
         public void Init(Card carta1, Card carta2)
@@ -17,5 +20,6 @@ namespace API_InformePOO
             AddCard(carta1);
             AddCard(carta2);
         }
+
     }
 }

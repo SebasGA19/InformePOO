@@ -1,31 +1,31 @@
-using System;
+﻿using System;
 
 namespace API_InformePOO
 {
     public class Card
     {
-        private string suit;
+        private char suit;
         private string symbol;
         private int score;
         private string color;
 
-        public Card(string suit, string symbol)
+        public Card(char suit, string symbol)
         {
             this.suit = suit;
             this.symbol = symbol;
 
-            if (suit == "rombo" || suit == "corazon")
+            if (suit == '♥' || suit == '♦')
             {
-                color == "rojo";
+                color = "rojo";
             }
             else
             {
-                color == "negro";
+                color = "negro";
             }
 
             if (symbol == "A")
             {
-                score = 1;
+                score = 11;
             }
             else if (symbol == "2")
             {
@@ -77,7 +77,7 @@ namespace API_InformePOO
             }
         }
 
-        public string Suit { get => suit; set => suit = value; }
+        public char Suit { get => suit; set => suit = value; }
         public string Symbol { get => symbol; set => symbol = value; }
         public int Score { get => score; set => score = value; }
         public string Color { get => color; set => color = value; }

@@ -1,0 +1,9 @@
+C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\API_InformePOO\obj\Debug\netcoreapp3.1\API_InformePOO.csprojAssemblyReference.cache
+C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\API_InformePOO\obj\Debug\netcoreapp3.1\API_InformePOO.AssemblyInfoInputs.cache
+C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\API_InformePOO\obj\Debug\netcoreapp3.1\API_InformePOO.AssemblyInfo.cs
+C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\API_InformePOO\obj\Debug\netcoreapp3.1\API_InformePOO.csproj.CoreCompileInputs.cache
+C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\API_InformePOO\bin\Debug\netcoreapp3.1\API_InformePOO.deps.json
+C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\API_InformePOO\bin\Debug\netcoreapp3.1\API_InformePOO.dll
+C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\API_InformePOO\bin\Debug\netcoreapp3.1\API_InformePOO.pdb
+C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\API_InformePOO\obj\Debug\netcoreapp3.1\API_InformePOO.dll
+C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\API_InformePOO\obj\Debug\netcoreapp3.1\API_InformePOO.pdb

@@ -17,3 +17,6 @@ C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\TheGame\obj\
 C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\TheGame\obj\Debug\netcoreapp3.1\TheGame.dll
 C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\TheGame\obj\Debug\netcoreapp3.1\TheGame.pdb
 C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\TheGame\obj\Debug\netcoreapp3.1\TheGame.genruntimeconfig.cache
+C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\TheGame\bin\Debug\netcoreapp3.1\API_InformePOO.dll
+C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\TheGame\bin\Debug\netcoreapp3.1\API_InformePOO.pdb
+C:\Users\Repre\OneDrive\Documentos\VisualStudio Projects\InformePOO\TheGame\obj\Debug\netcoreapp3.1\TheGame.csproj.CopyComplete

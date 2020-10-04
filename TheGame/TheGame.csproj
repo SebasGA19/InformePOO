@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\API_InformePOO\API_InformePOO.csproj" />
+  </ItemGroup>
+
 </Project>

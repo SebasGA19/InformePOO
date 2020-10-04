@@ -1,11 +1,33 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "API_InformePOO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/API_InformePOO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/API_InformePOO.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "API_InformePOO/1.0.0": {
+      "type": "project",
+      "path": "../API_InformePOO/API_InformePOO.csproj",
+      "msbuildProject": "../API_InformePOO/API_InformePOO.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "API_InformePOO >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Repre\\.nuget\\packages\\": {}
@@ -32,7 +54,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Repre\\OneDrive\\Documentos\\VisualStudio Projects\\InformePOO\\API_InformePOO\\API_InformePOO.csproj": {
+              "projectPath": "C:\\Users\\Repre\\OneDrive\\Documentos\\VisualStudio Projects\\InformePOO\\API_InformePOO\\API_InformePOO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

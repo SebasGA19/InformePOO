@@ -6,7 +6,22 @@
         xmlns:local="clr-namespace:TheGame"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#FFFF2E2E">
+        <Button Name="btnEmpezar" Content="Pedir" HorizontalAlignment="Left" Margin="81,255,0,0" VerticalAlignment="Top" Height="52" Width="73" FontSize="20" FontWeight="Bold" Background="White" Click="btnEmpezar_Click"/>
+        <Label Name="lblTheGame" Content="The Game" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="48" FontWeight="Bold" FontFamily="Arial Black"/>
+        <TextBlock Name="txtPlayerC" HorizontalAlignment="Left" Margin="81,80,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="165" Width="161" Background="#FFB0B0B0" FontSize="18"/>
+        <TextBlock Name="txtDealer" HorizontalAlignment="Left" Margin="557,80,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="165" Width="161" Background="#FFB0B0B0" FontSize="18"/>
+        <TextBlock Name="txtResultado" HorizontalAlignment="Center" Margin="0,80,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="105" Width="278" FontSize="30" FontWeight="Bold" Background="White"/>
+        <Button Name="btnPlantar" Content="Plantar" HorizontalAlignment="Left" Margin="169,255,0,0" VerticalAlignment="Top" Height="52" Width="73" Background="White" FontSize="20" FontWeight="Bold" Click="btnPlantar_Click"/>
+        <TextBlock Name="txtPartidasJ" HorizontalAlignment="Left" Margin="283,212,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="49" Background="White"/>
+        <TextBlock Name="txtPartidasG" HorizontalAlignment="Center" Margin="0,212,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="48" Background="White"/>
+        <TextBlock Name="txtPartidasP" HorizontalAlignment="Left" Margin="463,212,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="49" Background="White"/>
+        <Label Content="Ganadas" HorizontalAlignment="Center" Margin="0,185,0,0" VerticalAlignment="Top" Height="34"/>
+        <Label Content="Jugadas" HorizontalAlignment="Left" Margin="281,186,0,0" VerticalAlignment="Top"/>
+        <Label Content="Perdidas" HorizontalAlignment="Left" Margin="460,186,0,0" VerticalAlignment="Top"/>
+        <Label Content="Mazo del jugador" HorizontalAlignment="Left" Margin="99,55,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Mazo del tallador" HorizontalAlignment="Left" Margin="575,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.579,0.066" FontWeight="Bold" FontSize="14"/>
+        <Button Name="btnReinicio" Content="Volver a jugar" HorizontalAlignment="Center" Margin="0,323,0,0" VerticalAlignment="Top" Height="44" Width="124" Background="White" FontSize="16" FontWeight="Bold" Click="btnReinicio_Click"/>
 
     </Grid>
 </Window>
